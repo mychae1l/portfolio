@@ -1,0 +1,80 @@
+body{ background-color: #E9F9FF !important }
+
+
+
+/* NavBar */
+.menu > * {
+    text-align: center !important;
+}
+
+/* About */
+.main { 
+    margin-top: 60px !important;
+    padding: 20px !important;
+    border-radius: 15px !important; 
+    background-color: white !important;
+    min-height: 700px;
+}
+
+.cont { 
+    margin-top: 30px; 
+    min-height: 450px;
+}
+
+.about { margin-top: 30px;}
+.about > h1 { font-size: 30px; color: #130F49; }
+.about > h1 > span { color: #34A1CD !important; }
+.about > p { color: #575757; font-size: 15px;}
+
+.about-img > img { 
+    border-radius: 10%;
+    width: 80%; 
+}
+
+.about > a {
+    padding: 10px;
+    background-color: #130F49;
+    border-radius: 15px;
+    color: white;
+}
+
+.about > a:hover {color: #34A1CD !important;}
+
+
+/* Skills */
+
+.skills{
+    margin-top: 70px;
+}
+
+.skill-a > i {
+    background-color: #E9F9FF !important;
+    padding: 10px !important;
+    color: #34A1CD !important;
+    border-radius: 15px;
+    font-size: 50px;
+}
+
+.skill-a > p { color: #575757; margin-top: 10px;} 
+
+
+.skill-a > h2{
+    display: inline;
+    padding: 10px;
+    color: #130F49 !important;
+}
+
+
+@media screen and (max-width: 900px){
+
+    .about > * { text-align: center !important;}
+
+    .about > a {
+        margin-bottom: 30px;
+        width: 100%;
+    }
+
+    .about-img > img{
+        width: 100%;
+    }
+}
